@@ -47,4 +47,9 @@ VI editor
 set ff=unix - nastavuje UNIX konce riadkov
 
 Konvertuj dos subor do unix subor (upravi konce riadkov)
-tr -d '\15\32' < winfile.txt > unixfile.txt
+
+### Solved errors in code
+1. I had problem windows end of line in bash scripts. So I changed this end of line to unix supported format:
+`tr -d '\15\32' < winfile.txt > unixfile.txt`
+2. I had problem to build app.py properly, so I downgrade sklearn
+`scikit-learn==0.20.2`
