@@ -1,5 +1,6 @@
 FROM python:3.7.3-stretch
 
+WORKDIR ===
 ## Step 1:
 # Working Directory
 WORKDIR /app
