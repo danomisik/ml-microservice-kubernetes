@@ -40,3 +40,11 @@ You can find a detailed [project rubric, here](https://review.udacity.com/#!/rub
 * Setup and Configure Kubernetes locally
 * Create Flask app in Container
 * Run via kubectl
+
+
+VI editor
+:set list - ukaze konce riadkov. Mali by mat iba znak $ (new line)
+set ff=unix - nastavuje UNIX konce riadkov
+
+Konvertuj dos subor do unix subor (upravi konce riadkov)
+tr -d '\15\32' < winfile.txt > unixfile.txt
