@@ -10,7 +10,7 @@ ml-service-kubectl-bc8cdccc9-pz2xb   1/1     Running   0          3m34s
 Forwarding from 127.0.0.1:8000 -> 80
 Forwarding from [::1]:8000 -> 80
 Handling connection for 8000
-OUTPUT SEND AS RESPONSE TO THE CLIENT:
+RESPONSE FROM APP TO THE CLIENT:
 {
   "prediction": [
     20.35373177134412
