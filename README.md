@@ -1,4 +1,4 @@
-<include a CircleCI status badge, here>
+[![danomisik](https://circleci.com/gh/danomisik/ml-microservice-kubernetes.svg?style=svg)](https://circleci.com/gh/danomisik/ml-microservice-kubernetes)
 
 ## Project Overview
 
@@ -53,3 +53,13 @@ Konvertuj dos subor do unix subor (upravi konce riadkov)
 `tr -d '\15\32' < winfile.txt > unixfile.txt`
 2. I had problem to build app.py properly, so I downgrade sklearn
 `scikit-learn==0.20.2`
+
+
+https://computingforgeeks.com/how-to-install-minikube-on-ubuntu-18-04/
+https://classroom.udacity.com/nanodegrees/nd9991/parts/652b780f-0423-44bb-a7fa-344325b735e1/modules/67fa9db7-42f2-4e6c-a24a-8ae560da4335/lessons/1597126d-6bef-475c-b248-fead1154776a/concepts/3d8293f6-660d-4cf3-ae10-2067364e596b
+
+
+kubectl delete deployment ml-service-kubectl
+kubectl delete svc ml-service-kubectl
+
+
